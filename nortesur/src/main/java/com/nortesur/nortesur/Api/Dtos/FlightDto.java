@@ -1,5 +1,7 @@
 package com.nortesur.nortesur.Api.Dtos;
 
+import java.util.Set;
+
 import com.nortesur.nortesur.entidades.Booking;
 
 import lombok.Data;
@@ -20,6 +22,6 @@ public class FlightDto {
     private String ticketCurrency;
     private Integer FlightNumber;
     private Integer numberOfSeats;
-    private Booking booking;
+    private Set<Booking> booking;
 
 }
